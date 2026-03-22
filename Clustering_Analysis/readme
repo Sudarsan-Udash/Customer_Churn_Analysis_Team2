@@ -1,0 +1,22 @@
+# Clustering Analysis Module
+
+Overview
+The **Clustering Analysis module** is responsible for segmenting customers into meaningful groups using K-Means clustering.
+
+This module helps transform raw customer data into actionable insights by:
+- Identifying customer segments
+- Assigning business personas
+- Supporting churn and revenue analysis
+
+---
+
+Objective
+To group customers based on behavioural patterns and create clusters that can be used for:
+- Customer segmentation
+- Churn prediction insights
+- Revenue recovery strategies
+- Targeted marketing decisions
+
+---
+
+Module Structure
