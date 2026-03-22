@@ -1,0 +1,48 @@
+# Optimal Number of Clusters (Elbow Method)
+
+## 📌 Overview
+This script determines the optimal number of clusters (K) for K-Means clustering using the **Elbow Method**.
+
+It evaluates how the clustering performance improves as the number of clusters increases and helps identify the point where adding more clusters provides diminishing returns.
+
+---
+
+## 🎯 Objective
+To find the best value of **K (number of clusters)** that balances:
+- Model accuracy
+- Simplicity
+- Interpretability
+
+---
+
+## 🧠 Method Used: Elbow Method
+
+The Elbow Method works by:
+1. Running K-Means for different values of K (e.g., 1 to 10)
+2. Calculating **WCSS (Within-Cluster Sum of Squares)** for each K
+3. Plotting K vs WCSS
+4. Identifying the “elbow point”
+
+---
+
+## 📉 Key Concept: WCSS
+
+WCSS measures:
+- The compactness of clusters
+- The distance between data points and their cluster centroid
+
+Lower WCSS = Better clustering
+
+---
+
+## 📊 How It Works
+
+```python
+from sklearn.cluster import KMeans
+
+wcss = []
+
+for k in range(1, 11):
+    kmeans = KMeans(n_clusters=k, init='k-means++', random_state=42)
+    kmeans.fit(X_scaled)
+    wcss.append(kmeans.inertia_)
