@@ -1,0 +1,43 @@
+# Scaling Techniques Documentation
+
+## 📌 Overview
+This document provides a detailed explanation of feature scaling techniques used in the project, with a focus on **Standard Scaling (Z-score normalization)**.
+
+It supports the data preparation and clustering stages by explaining:
+- Why scaling is necessary
+- How scaling works mathematically
+- How it is implemented in the project
+
+---
+
+## 🎯 Purpose
+The purpose of this document is to:
+- Ensure understanding of preprocessing decisions
+- Justify the use of scaling before clustering
+- Provide theoretical and practical insights
+
+---
+
+## ⚠️ Why Feature Scaling is Important
+
+Feature scaling is essential because:
+- Machine learning algorithms are sensitive to feature magnitude
+- Features with larger values can dominate smaller ones
+- Distance-based algorithms (like K-Means) rely on fair comparisons
+
+### Example Problem (Without Scaling)
+- tenure → ranges from 1 to 72  
+- MonthlyCharges → ranges from 20 to 120  
+
+Without scaling:
+- MonthlyCharges may dominate clustering results
+
+---
+
+## 🧠 Scaling Technique Used
+
+### StandardScaler (Z-score Normalization)
+
+This project uses **StandardScaler** from Scikit-learn.
+
+### Formula
