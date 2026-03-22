@@ -1,0 +1,17 @@
+ELBOW METHOD RESULTS
+
+   k            WCSS
+----------------------------------------
+   1       14,038.77
+   2        7,814.08
+   3        5,015.21  (OPTIMAL)
+   4        2,839.24
+   5        2,305.88
+   6        2,005.44
+   7        1,642.37
+   8        1,327.16
+   9        1,145.02
+  10          997.31
+
+Conclusion: The elbow inflection point occurs at k=3.
+Business Logic: k=3 balances segment granularity with operational simplicity.

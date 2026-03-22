@@ -1,0 +1,49 @@
+CLUSTER VISUALISATION & ANALYSIS
+
+
+Number of Clusters: 3
+
+
+
+Cluster 0 — Loyal High-Rollers
+- High tenure
+- High monthly charges
+- Low churn risk
+
+Cluster 1 — At-Risk Newbies
+- Low tenure
+- Moderate monthly charges
+- High churn risk
+
+Cluster 2 — Stable Budgeteers
+- Moderate tenure
+- Lower monthly charges
+- Moderate churn risk
+
+
+
+VISUALISATION
+A scatter plot was created using tenure and monthly charges,
+where customers are grouped into three distinct clusters.
+
+Each cluster is colour-coded, clearly showing separation
+between customer segments based on usage and spending.
+
+
+
+INSIGHTS
+- Cluster 1 (At-Risk Newbies) represents customers with the
+  highest churn risk and requires targeted retention strategies.
+
+- Cluster 0 (Loyal High-Rollers) represents high-value customers
+  who contribute significant revenue and should be retained
+  through loyalty programs.
+
+- Cluster 2 (Stable Budgeteers) represents stable customers
+  who can be targeted for upselling and cross-selling.
+
+
+CONCLUSION
+The clustering approach successfully segments customers into
+meaningful groups, enabling data-driven decision-making for
+customer retention, marketing, and revenue optimization.

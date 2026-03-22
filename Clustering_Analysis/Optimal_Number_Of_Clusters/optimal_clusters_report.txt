@@ -1,0 +1,34 @@
+
+OPTIMAL NUMBER OF CLUSTERS ANALYSIS
+
+
+Method Used      : Elbow Method (K-Means Clustering)
+Features Used    : tenure, MonthlyCharges
+Scaling Applied  : StandardScaler
+
+
+
+RESULT
+The elbow method was applied by plotting the Within-Cluster
+Sum of Squares (WCSS) against the number of clusters (k).
+
+The graph shows a clear inflection point at k = 3, where the
+rate of decrease in WCSS slows significantly.
+
+
+CONCLUSION
+The optimal number of clusters is 3.
+
+This value provides a balance between:
+- Minimising clustering error (WCSS)
+- Maintaining interpretable customer segments
+
+
+
+BUSINESS INTERPRETATION
+Using 3 clusters allows segmentation of customers into:
+- Low-value customers
+- Medium-value customers
+- High-value customers
+
+This segmentation supports targeted marketing and retention strategies.
