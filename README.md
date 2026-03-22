@@ -54,5 +54,4 @@ Technologies
 
 ---
 
-## 👤 Author
-Saurav Kumar (Business Analyst) :contentReference[oaicite:0]{index=0}
+
