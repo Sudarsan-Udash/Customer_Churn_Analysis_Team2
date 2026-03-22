@@ -1,6 +1,6 @@
 # Scaling Techniques Documentation
 
-## 📌 Overview
+Overview
 This document provides a detailed explanation of feature scaling techniques used in the project, with a focus on **Standard Scaling (Z-score normalization)**.
 
 It supports the data preparation and clustering stages by explaining:
@@ -10,7 +10,7 @@ It supports the data preparation and clustering stages by explaining:
 
 ---
 
-## 🎯 Purpose
+Purpose
 The purpose of this document is to:
 - Ensure understanding of preprocessing decisions
 - Justify the use of scaling before clustering
@@ -18,7 +18,7 @@ The purpose of this document is to:
 
 ---
 
-## ⚠️ Why Feature Scaling is Important
+Why Feature Scaling is Important
 
 Feature scaling is essential because:
 - Machine learning algorithms are sensitive to feature magnitude
@@ -34,7 +34,7 @@ Without scaling:
 
 ---
 
-## 🧠 Scaling Technique Used
+Scaling Technique Used
 
 ### StandardScaler (Z-score Normalization)
 
