@@ -1,6 +1,6 @@
 # K-Means Model Training
 
-## 📌 Overview
+Overview
 This script trains a **K-Means clustering model** to segment customers into meaningful groups based on their behaviour.
 
 It also:
@@ -11,7 +11,7 @@ It also:
 
 ---
 
-## 🎯 Objective
+Objective
 To group customers into distinct segments that can be used for:
 - Churn analysis
 - Revenue recovery strategies
@@ -19,7 +19,7 @@ To group customers into distinct segments that can be used for:
 
 ---
 
-## ⚙️ Key Steps Performed
+Key Steps Performed
 
 ### 1. Load Preprocessed Dataset
 - Reads `preprocessed_dataset.csv`
