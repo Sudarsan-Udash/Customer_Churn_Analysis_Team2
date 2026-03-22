@@ -1,6 +1,6 @@
 # Train-Test Split Script
 
-## 📌 Overview
+Overview
 This script is responsible for preparing the dataset for modelling by:
 - Scaling features
 - Splitting data into training and testing sets
@@ -9,7 +9,7 @@ It ensures that the dataset is structured correctly for machine learning workflo
 
 ---
 
-## 🎯 Objective
+Objective
 To create separate datasets for:
 - Model training
 - Model evaluation
@@ -18,7 +18,7 @@ This helps assess how well the model generalises to unseen data.
 
 ---
 
-## ⚙️ Key Steps Performed
+Key Steps Performed
 
 ### 1. Load Preprocessed Dataset
 - Reads `preprocessed_dataset.csv`
