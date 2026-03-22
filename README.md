@@ -1,6 +1,6 @@
-# Customer Churn Analytics & Revenue Recovery
+Customer Churn Analytics & Revenue Recovery
 
-## 📌 Project Overview
+Project Overview
 This project focuses on analysing customer churn patterns and identifying high-value customer segments using clustering techniques.
 
 The goal is to:
@@ -10,12 +10,12 @@ The goal is to:
 
 ---
 
-## 📂 Project Structure
+Project Structure
 
 
 ---
 
-## ⚙️ Workflow (Run Order)
+Workflow (Run Order)
 
 1. Data_Preparation/preprocess_dataset.py  
 2. Data_Preparation/train_test_split.py  
@@ -25,7 +25,7 @@ The goal is to:
 
 ---
 
-## 🧠 Techniques Used
+Techniques Used
 - Feature Engineering
 - Standard Scaling (Z-score)
 - Train-Test Split
@@ -35,7 +35,7 @@ The goal is to:
 
 ---
 
-## 📊 Output Highlights
+Output Highlights
 - Clustered customer segments
 - Customer personas:
   - Loyal High-Rollers
@@ -45,7 +45,7 @@ The goal is to:
 
 ---
 
-## 📦 Technologies
+Technologies
 - Python
 - Pandas
 - NumPy
