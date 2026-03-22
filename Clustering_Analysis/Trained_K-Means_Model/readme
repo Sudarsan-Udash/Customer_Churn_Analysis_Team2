@@ -1,0 +1,43 @@
+# K-Means Model Training
+
+## 📌 Overview
+This script trains a **K-Means clustering model** to segment customers into meaningful groups based on their behaviour.
+
+It also:
+- Assigns cluster labels
+- Maps customer personas
+- Performs revenue analysis
+- Saves the trained model and outputs
+
+---
+
+## 🎯 Objective
+To group customers into distinct segments that can be used for:
+- Churn analysis
+- Revenue recovery strategies
+- Business decision-making
+
+---
+
+## ⚙️ Key Steps Performed
+
+### 1. Load Preprocessed Dataset
+- Reads `preprocessed_dataset.csv`
+- Uses cleaned and engineered data
+
+---
+
+### 2. Feature Selection
+The following features are used for clustering:
+- **tenure**
+- **MonthlyCharges**
+
+---
+
+### 3. Feature Scaling
+- Applies **StandardScaler**
+- Ensures fair distance calculations for K-Means
+
+```python
+scaler = StandardScaler()
+X_scaled = scaler.fit_transform(X_cluster)
