@@ -1,7 +1,7 @@
 
 # Data Preparation Module
 
-## 📌 Overview
+Overview
 This module handles:
 - Data cleaning
 - Feature engineering
@@ -10,7 +10,7 @@ This module handles:
 
 ---
 
-## 📂 Files
+Files
 
 ### preprocess_dataset.py
 - Loads raw dataset
@@ -43,7 +43,7 @@ This module handles:
 
 ---
 
-## 📊 Key Concept: Scaling
+Key Concept: Scaling
 StandardScaler is used to normalise features:
 - tenure
 - MonthlyCharges
