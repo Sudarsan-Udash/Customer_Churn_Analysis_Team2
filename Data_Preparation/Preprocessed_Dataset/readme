@@ -1,7 +1,7 @@
 
 # Preprocess Dataset Script
 
-## 📌 Overview
+Overview
 This script is responsible for transforming the raw customer dataset into a clean, structured format suitable for machine learning and clustering analysis.
 
 It performs:
@@ -12,7 +12,7 @@ It performs:
 
 ---
 
-## 🎯 Objective
+Objective
 To prepare a high-quality dataset (`preprocessed_dataset.csv`) that can be used for:
 - Train/test splitting
 - Clustering (K-Means)
@@ -20,7 +20,7 @@ To prepare a high-quality dataset (`preprocessed_dataset.csv`) that can be used 
 
 ---
 
-## ⚙️ Key Steps Performed
+Key Steps Performed
 
 ### 1. Load Raw Dataset
 - Reads the original CSV dataset
