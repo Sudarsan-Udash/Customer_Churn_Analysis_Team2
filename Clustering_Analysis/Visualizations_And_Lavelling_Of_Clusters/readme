@@ -1,13 +1,13 @@
 # Cluster Visualisations and Cluster Labelling
 
-## 📌 Overview
+Overview
 This script generates visualisations to help interpret the customer clusters created by the K-Means model.
 
 It also supports the labelling of clusters into meaningful customer personas, making the clustering results easier to understand from a business perspective.
 
 ---
 
-## 🎯 Objective
+Objective
 The purpose of this script is to:
 - Visualise customer segments clearly
 - Interpret cluster behaviour
@@ -16,7 +16,7 @@ The purpose of this script is to:
 
 ---
 
-## ⚙️ Key Steps Performed
+Key Steps Performed
 
 ### 1. Load Saved Model and Data
 The script loads:
@@ -71,7 +71,7 @@ The script also generates a text summary explaining:
 
 ---
 
-## 📊 Output Files
+Output Files
 
 The script produces:
 ```text
