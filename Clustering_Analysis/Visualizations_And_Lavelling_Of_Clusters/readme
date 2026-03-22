@@ -1,0 +1,83 @@
+# Cluster Visualisations and Cluster Labelling
+
+## 📌 Overview
+This script generates visualisations to help interpret the customer clusters created by the K-Means model.
+
+It also supports the labelling of clusters into meaningful customer personas, making the clustering results easier to understand from a business perspective.
+
+---
+
+## 🎯 Objective
+The purpose of this script is to:
+- Visualise customer segments clearly
+- Interpret cluster behaviour
+- Assign business-friendly labels to clusters
+- Support decision-making using cluster insights
+
+---
+
+## ⚙️ Key Steps Performed
+
+### 1. Load Saved Model and Data
+The script loads:
+- `kmeans_model.pkl`
+- `scaler.pkl`
+- `clustered_dataset.csv`
+
+This ensures that the same trained clustering model is used consistently.
+
+---
+
+### 2. Read Cluster Assignments
+The dataset already contains:
+- `Cluster`
+- `Persona`
+- `Cluster_Name`
+
+These columns are used to display customer groups and their labels.
+
+---
+
+### 3. Generate Cluster Visualisations
+The script creates multiple plots to show how customers are distributed across clusters.
+
+Typical visualisations include:
+- Scatter plot of `tenure` vs `MonthlyCharges`
+- Cluster-wise customer distribution
+- Revenue contribution by cluster
+- Churn behaviour by cluster
+- Persona comparison charts
+
+---
+
+### 4. Label Clusters
+Clusters are given clear business-oriented labels:
+
+| Cluster | Label |
+|--------|-------|
+| 0 | Loyal High-Rollers |
+| 1 | At-Risk Newbies |
+| 2 | Stable Budgeteers |
+
+These labels make the output more meaningful than using only numbers.
+
+---
+
+### 5. Save Insights
+The script also generates a text summary explaining:
+- What each cluster represents
+- Key behavioural patterns
+- Business interpretation of each segment
+
+---
+
+## 📊 Output Files
+
+The script produces:
+```text
+cluster_plot_1.png
+cluster_plot_2.png
+cluster_plot_3.png
+cluster_plot_4.png
+cluster_plot_5.png
+cluster_insights.txt
