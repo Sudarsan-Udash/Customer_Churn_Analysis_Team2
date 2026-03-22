@@ -1,0 +1,58 @@
+
+# Preprocess Dataset Script
+
+Overview
+This script is responsible for transforming the raw customer dataset into a clean, structured format suitable for machine learning and clustering analysis.
+
+It performs:
+- Data cleaning
+- Feature engineering
+- Encoding of categorical variables
+- Creation of new analytical features
+
+---
+
+Objective
+To prepare a high-quality dataset (`preprocessed_dataset.csv`) that can be used for:
+- Train/test splitting
+- Clustering (K-Means)
+- Customer segmentation
+
+---
+
+Key Steps Performed
+
+### 1. Load Raw Dataset
+- Reads the original CSV dataset
+- Ensures correct data types
+
+---
+
+### 2. Data Cleaning
+- Handles missing values
+- Removes duplicates (if any)
+- Fixes inconsistent data formats
+
+---
+
+### 3. Feature Engineering
+Creates new meaningful features such as:
+- **CustomerValue** → total revenue contribution
+- **Churn_numeric** → binary representation of churn (0 = No, 1 = Yes)
+
+---
+
+### 4. Encoding
+- Converts categorical variables into numerical format
+- Ensures compatibility with machine learning models
+
+---
+
+### 5. Data Validation
+- Confirms dataset shape
+- Checks for null values after transformation
+
+---
+
+### 6. Save Output
+Generates:
